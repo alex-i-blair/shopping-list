@@ -21,7 +21,15 @@
     </header>    
     <button id="logout">Logout</button>
     <main>
-        <h1>You are logged in!</h1>
+        <h1>Shopping List:</h1>
+        <button class="delete-button">Delete List</button>
+        <form id='list-add-form'>
+            <input name="item" placeholder="New Item" required>
+            <input name='quantity' type="number" value='1' min="1" max="100">
+            <button>Add</button>
+        </form>
+        <div class="shopping-list" id="list-display"></div>
+        
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2021 Alchemy Code Lab</div>

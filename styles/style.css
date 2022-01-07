@@ -129,3 +129,25 @@ footer {
 .auth-container button {
     margin: 10px;
 }
+
+.shopping-list {
+    height: 1000px;
+    width: 50%;
+    border: solid black 1px;
+}
+
+.incomplete {
+    cursor: pointer;
+}
+
+.bought {
+    text-decoration: line-through;
+    background-color: lightgreen;
+}
+
+.list-item {
+    background-color:lightgray;
+    width: 80%;
+    font-size: 2rem;
+    margin: 10px;
+}
