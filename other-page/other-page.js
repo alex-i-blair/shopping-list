@@ -22,6 +22,7 @@ async function displayList() {
     displayListEl.textContent = '';
     for (let item of shoppingList) {
         const itemEl = await renderItem(item);
+        // console.log(item, typeof item);
         itemEl.addEventListener('click', async() => {
             await buyItem(item.id);
             await displayList();

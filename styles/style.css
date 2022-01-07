@@ -140,7 +140,7 @@ footer {
     cursor: pointer;
 }
 
-.bought {
+.complete {
     text-decoration: line-through;
     background-color: lightgreen;
 }

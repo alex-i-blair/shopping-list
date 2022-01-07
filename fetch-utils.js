@@ -18,8 +18,8 @@ export async function getList() {
 export async function buyItem(id) {
     const response = await client
         .from('shopping_list')
-        .update([{ bought: true }])
-        .match([{ id: id }]);
+        .update({ bought: true })
+        .match({ id: id });
 
     return checkError(response);
 }
