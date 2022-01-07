@@ -133,7 +133,7 @@ footer {
 .shopping-list {
     height: 1000px;
     width: 50%;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 .incomplete {
